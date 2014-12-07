@@ -4,16 +4,16 @@ public class Question6
 	{
 	//declare variables
 	boolean x=true, y=false;
-	int num1=6, num2=8, num3=9, num4=4;
+	int num1=6, num2=8;
 
 	//true false statement
-	if(num1>num4 & num2>num3)
+	if(num1>=num2)
 		{
-System.out.println("The answer is "+x);
-}
-else
-{
-System.out.println("The answer is "+y);
-}
+			System.out.println("The answer is "+x);
+		}
+	else
+		{
+			System.out.println("The answer is "+y);
+		}
 	}
 }
